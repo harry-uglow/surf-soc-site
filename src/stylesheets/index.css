@@ -1,5 +1,21 @@
 body {
-  margin: 0;
+    font-family: sans-serif;
+    background-color: #32c7ff;
+    margin: 0;
+}
+.content {
+  background-color: #32c7ff;
+  padding: 20px;
+}
+.content h2 {
   padding: 0;
-  font-family: sans-serif;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 10%;
 }

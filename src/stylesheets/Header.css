@@ -1,0 +1,34 @@
+.header {
+    background-color: #111;
+    width: 100%;
+    padding: 0;
+}
+.navlinks {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#surf-logo-link {
+    padding: 0;
+}
+
+#surf-logo {
+    max-width: 10%;
+}
+
+.navlinks > li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.navlinks > li > a {
+    color: #32c7ff;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
