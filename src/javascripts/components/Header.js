@@ -5,13 +5,13 @@ import NavLink from "react-router-dom/es/NavLink";
 
 const Header = () => {
   return (
-    <Navbar inverse>
+    <Navbar className='header' inverse>
       <Navbar.Header>
-        <NavLink to="/">
+        <NavLink to="/" id='surf-logo-link'>
           <img id="surf-logo" src="/images/surf_logo.png" alt="Surf Logo"/>
         </NavLink>
       </Navbar.Header>
-      <Nav>
+      <Nav pullRight>
         <NavItem><NavLink to="/about">About</NavLink></NavItem>
         <NavItem><NavLink to="/trips">Trips</NavLink></NavItem>
         <NavItem><NavLink to="/committee">Committee</NavLink></NavItem>

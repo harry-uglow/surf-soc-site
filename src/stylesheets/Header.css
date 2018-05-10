@@ -1,8 +1,17 @@
 .header {
-    background-color: #111;
-    width: 100%;
+    border: none;
+    border-radius: 0;
     padding: 0;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
 }
+
+.header > .container {
+    display: flex;
+    justify-content: center;
+}
+
 .navlinks {
     padding-left: 20px;
     display: flex;
@@ -12,11 +21,22 @@
 }
 
 #surf-logo-link {
-    padding: 0;
 }
 
 #surf-logo {
-    max-width: 10%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-height: 80px;
+}
+
+.nav {
+    align-self: center;
+    position: absolute;
+    right: 100px;
+}
+
+.nav a {
+    color: white;
 }
 
 .navlinks > li {
