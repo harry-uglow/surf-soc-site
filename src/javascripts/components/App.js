@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import {
-  Route,
-  BrowserRouter
-} from "react-router-dom";
+import Home from "./Home";
 import About from "./About";
 import Trips from "./Trips";
 import Committee from "./Committee";
-import '../../stylesheets/App.css';
+import { Route, BrowserRouter } from "react-router-dom";
 import Header from "./Header";
-import Home from "./Home";
 
 class App extends Component {
   render() {
