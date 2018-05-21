@@ -6,9 +6,16 @@ body {
 .content {
   width: 100%;
   height: 100%;
-  background-color: #32c7ff;
   padding: 20px;
 }
+
+/* Sample media query */
+/*@media only screen and (max-width: 600px) {*/
+    /*.content {*/
+        /*background-color: #32c7ff;*/
+    /*}*/
+/*}*/
+
 .content h2 {
   padding: 0;
   margin: 0;

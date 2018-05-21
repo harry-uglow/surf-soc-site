@@ -5,8 +5,9 @@ class Committee extends Component {
     return (
       <div>
         <h2>Committee</h2>
-        <p>Committee info coming soon
-        </p>
+        <div className="committee-cards">
+
+        </div>
       </div>
     );
   }

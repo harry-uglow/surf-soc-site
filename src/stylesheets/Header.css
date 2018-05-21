@@ -1,54 +1,38 @@
-.header {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    font-size: 18px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-bottom: 0;
+/*.header {*/
+    /*border: none;*/
+    /*border-radius: 0;*/
+    /*padding: 0;*/
+    /*font-size: 18px;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*margin-bottom: 0;*/
+/*}*/
+
+.navbar-inverse .navbar-brand {
+    font-size: 24px;
+    color: #fff;
 }
 
-.header > .container {
-    display: flex;
-    justify-content: center;
-}
-
-.navlinks {
-    padding-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
-
-#surf-logo-link {
-}
-
-#surf-logo {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    max-height: 80px;
+#surf-header {
+    margin: 3px auto;
 }
 
 .nav {
-    align-self: center;
-    position: absolute;
-    right: 100px;
+    font-size: 18px;
 }
 
-.nav a {
-    color: white;
-}
+/*#surf-logo {*/
+    /*margin-top: 12px;*/
+    /*margin-bottom: 12px;*/
+    /*max-height: 80px;*/
+/*}*/
 
-.navlinks > li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-}
 
-.navlinks > li > a {
-    color: #32c7ff;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-}
+/*.nav {*/
+    /*align-self: center;*/
+    /*position: absolute;*/
+    /*right: 100px;*/
+/*}*/
+
+/*.nav a {*/
+    /*color: white;*/
+/*}*/
