@@ -9,17 +9,11 @@ body {
   padding: 20px;
 }
 
-/* Sample media query */
-/*@media only screen and (max-width: 600px) {*/
-    /*.content {*/
-        /*background-color: #32c7ff;*/
-    /*}*/
-/*}*/
-
 .content h2 {
   padding: 0;
   margin: 0;
 }
+
 .content li {
   margin-bottom: 10px;
 }

@@ -1,8 +1,9 @@
 import React from "react";
-import '../../stylesheets/Header.css';
 import {Nav, Navbar, NavItem} from "react-bootstrap";
 import NavLink from "react-router-dom/es/NavLink";
 import {LinkContainer} from "react-router-bootstrap";
+
+import '../../stylesheets/Header.css';
 
 const Header = () => {
   return (
