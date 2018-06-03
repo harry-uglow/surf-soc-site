@@ -12,24 +12,21 @@
     padding: 0;
 }
 
-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .carousel-inner > .item {
-    height: calc(50vh - 28px);
-    max-height: calc(50vh - 28px);
+    height: calc(50vh - 25px);
+    max-height: calc(50vh - 25px);
 }
 
 .carousel-inner > .item > img {
     min-width: 50vw;
     min-height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #surf-logo {
@@ -49,4 +46,10 @@ img {
     max-width: 70%;
     height: 70%;
     width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
