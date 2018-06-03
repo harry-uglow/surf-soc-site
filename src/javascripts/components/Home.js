@@ -36,9 +36,9 @@ class Home extends Component{
     await sleep(TRANSITION_DELAY);
     this.carousels[1].current.next();
     await sleep(TRANSITION_DELAY);
-    this.carousels[2].current.prev();
+    this.carousels[2].current.next();
     await sleep(TRANSITION_DELAY);
-    this.carousels[3].current.prev();
+    this.carousels[3].current.next();
     this.timeout = setTimeout(this.transition, 5000);
   }
 

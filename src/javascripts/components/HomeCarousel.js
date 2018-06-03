@@ -2,6 +2,8 @@ import React  from "react";
 import {Component} from "react";
 import {Carousel} from "react-bootstrap";
 
+import "../../stylesheets/HomeCarousel.css"
+
 class HomeCarousel extends Component {
 
   constructor(props) {
@@ -22,7 +24,7 @@ class HomeCarousel extends Component {
       );
     });
     return (
-      <Carousel ref={this.carousel} indicators={false} controls={false} pauseOnHover={false} interval={null}>
+      <Carousel className="carousel-fade" ref={this.carousel} indicators={false} controls={false} pauseOnHover={false} interval={null}>
         {carouselItems}
       </Carousel>
     );
