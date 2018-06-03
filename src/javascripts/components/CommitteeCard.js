@@ -14,7 +14,7 @@ class CommitteeCard extends Component {
         </Panel.Heading>
         <Panel.Body>
           <Media>
-            <Media.Left>
+            <Media.Left className="card-pic">
               <Image src="images/IMG_3806.JPG" alt="Harry" circle/>
             </Media.Left>
             <Media.Body>
