@@ -2,6 +2,7 @@
   "name": "surf-soc-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://union.ic.ac.uk/acc/surf",
   "dependencies": {
     "bootstrap": "3",
     "react": "^16.3.2",

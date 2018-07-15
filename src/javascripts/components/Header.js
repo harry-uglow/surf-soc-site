@@ -12,7 +12,6 @@ const Header = () => {
         <Navbar.Brand>
           <NavLink to="/" id="surf-branding">
             Imperial College Surf Society
-            {/*<img id="surf-logo" src="/images/surf_logo.png" alt="Surf Logo"/>*/}
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle/>

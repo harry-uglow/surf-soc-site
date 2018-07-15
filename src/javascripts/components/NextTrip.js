@@ -1,5 +1,6 @@
 import React from "react";
 import {Col, ProgressBar, Row, Well} from "react-bootstrap";
+import boardmasters from "../../images/boardmasters.png";
 
 const now = 100;
 
@@ -20,7 +21,7 @@ const NextTrip = () => (
         </p>
       </Col>
       <Col xs={4}>
-        <img src="images/boardmasters.png" alt="Boardmasters"/>
+        <img src={boardmasters} alt="Boardmasters"/>
       </Col>
     </Row>
   </Well>

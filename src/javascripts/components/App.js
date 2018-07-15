@@ -11,13 +11,13 @@ import "../../stylesheets/App.css"
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/acc/surf">
         <div>
           <Header/>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/trips" component={Trips}/>
-          <Route path="/committee" component={Committee}/>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/trips" component={Trips}/>
+            <Route path="/committee" component={Committee}/>
         </div>
       </BrowserRouter>
     );

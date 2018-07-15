@@ -6,27 +6,39 @@ import HomeCarousel from "./HomeCarousel";
 import '../../stylesheets/Home.css';
 import {sleep} from "../utils";
 
+import baleal from "../../images/baleal.jpg";
+import group_cliff from "../../images/group_cliff.jpg";
+import boards from "../../images/boards.jpg";
+import joash from "../../images/joashred.JPG";
+import estella from "../../images/estella.JPG";
+import flo from "../../images/flo.JPG";
+import filip_surf from "../../images/filip_surf.JPG";
+import POON from "../../images/POON.JPG";
+import mellie from "../../images/mellie.jpg";
+import portugal_lunch from "../../images/portugal_lunch.jpg";
+import logo from "../../images/surf_logo.png"
+
 const TRANSITION_DELAY = 1250;
 const topRightUrls = [
-  "/images/baleal.jpg",
-  "images/group_cliff.JPG",
-  "images/boards.jpg"
+  baleal,
+  group_cliff,
+  boards
 ];
 
 const topLeftUrls = [
-  "images/joashred.JPG",
-  "images/estella.JPG"
+  joash,
+  estella
 ];
 
 const bottomRightUrls = [
-  "images/flo.JPG",
-  "images/filip_surf.JPG",
-  "images/POON.JPG"
+  flo,
+  filip_surf,
+  POON
 ];
 
 const bottomLeftUrls = [
-  "images/mellie.jpg",
-  "images/portugal_lunch.jpg"
+  mellie,
+  portugal_lunch
 ];
 
 class Home extends Component{
@@ -62,7 +74,7 @@ class Home extends Component{
     return (
       <div className="home-content">
         <div id="surf-logo">
-          <img src="images/surf_logo.png" alt=""/>
+          <img src={logo} alt=""/>
         </div>
       <Grid className="carousel-container">
         <Row>

@@ -3,6 +3,7 @@ import React from "react";
 import {Image, Media, Panel} from "react-bootstrap";
 
 import "../../stylesheets/CommitteeCard.css"
+import harry from "../../images/harry.JPG"
 
 class CommitteeCard extends Component {
 
@@ -15,7 +16,7 @@ class CommitteeCard extends Component {
         <Panel.Body>
           <Media>
             <Media.Left className="card-pic">
-              <Image src="images/IMG_3806.JPG" alt="Harry" circle/>
+              <Image src={harry} alt="Harry" circle/>
             </Media.Left>
             <Media.Body>
               <p><strong>Role:</strong> President</p>
