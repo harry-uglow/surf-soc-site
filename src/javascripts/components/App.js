@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Home from "./Home";
+import Home from "./home/Home";
 import About from "./About";
-import Trips from "./Trips";
-import Committee from "./Committee";
+import Trips from "./trips/Trips";
+import Committee from "./committee/Committee";
+import Events from "./events/Events";
 import { Route, BrowserRouter } from "react-router-dom";
 import Header from "./Header";
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/trips" component={Trips}/>
             <Route path="/committee" component={Committee}/>
+            <Route path="/events" component={Events}/>
         </div>
       </BrowserRouter>
     );

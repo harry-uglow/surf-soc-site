@@ -2,8 +2,8 @@ import {Component} from "react";
 import React from "react";
 import {Image, Media, Panel} from "react-bootstrap";
 
-import "../../stylesheets/CommitteeCard.css"
-import harry from "../../images/harry.JPG"
+import "../../../stylesheets/CommitteeCard.css"
+import harry from "../../../images/harry.JPG"
 
 class CommitteeCard extends Component {
 

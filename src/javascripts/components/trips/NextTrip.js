@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, ProgressBar, Row, Well} from "react-bootstrap";
-import boardmasters from "../../images/boardmasters.png";
+import boardmasters from "../../../images/boardmasters.png";
 
 const now = 100;
 

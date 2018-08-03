@@ -2,7 +2,7 @@ import React  from "react";
 import {Component} from "react";
 import {Carousel} from "react-bootstrap";
 
-import "../../stylesheets/HomeCarousel.css"
+import "../../../stylesheets/HomeCarousel.css"
 
 class HomeCarousel extends Component {
 
