@@ -1,24 +1,23 @@
 import React from "react";
-import {Col, Row, Well} from "react-bootstrap";
-import fresh from "../../../images/fresh.jpg";
+import {Row} from "react-bootstrap";
+import YoutubeEmbedVideo from "youtube-embed-video";
 
+import '../../../stylesheets/Trips.css'
+
+let placeholder = "";
+for(var i=0; i < 100; i++){
+  placeholder += "We went surfing and it was fun."
+}
 
 const TripPreview = () => (
-  <Well className="event">
-    <Row>
-      <Col xs={8}>
-        <h2>Freshers Fair</h2>
-        <h5>Come and meet the new committee and find out what's in store
-          from Surf Soc this year. Plus, a chance to win a free Freshers Trip ticket!!
-          (Probably a lie)</h5>
-        <hr/>
-        <p><strong>Date:</strong> 2nd October</p>
-      </Col>
-      <Col xs={4}>
-        <img src={fresh} alt="Freshers Fair"/>
-      </Col>
-    </Row>
-  </Well>
+  <Row className="trip-preview">
+    <div className="header">
+      <h2>Moliets 2018</h2>
+      <h5>1st - 7th July</h5>
+      <YoutubeEmbedVideo videoId="Hilm2r6mLw4" suggestions={false} />
+    </div>
+    <p>{placeholder}</p>
+  </Row>
 );
 
 export default TripPreview;

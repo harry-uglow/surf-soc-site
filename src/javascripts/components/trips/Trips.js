@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Col, Grid, Row} from "react-bootstrap";
+import {Grid} from "react-bootstrap";
 import NextTrip from "./NextTrip";
 import TripPreview from "./TripPreview";
 
@@ -12,22 +12,16 @@ class Trips extends Component {
     return (
       <div className="content">
         <Grid>
-          <Row>
-            <Col xs={12}>
-              <NextTrip/>
-            </Col>
-          </Row>
+          {/*<Row>*/}
+            {/*<Col xs={12}>*/}
+              {/*<NextTrip/>*/}
+            {/*</Col>*/}
+          {/*</Row>*/}
           {recentTrips.map(id =>
-              <React.Fragment>
-                <hr/>
-                <Row>
-                  <Col xs={12}>
-                    <TripPreview tripId={id} />
-                  </Col>
-                </Row>
-              </React.Fragment>
+            <React.Fragment>
+              <TripPreview tripId={id}/>
+            </React.Fragment>
           )}
-
         </Grid>
       </div>
     );
