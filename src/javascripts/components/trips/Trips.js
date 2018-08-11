@@ -1,24 +1,25 @@
 import React, {Component} from "react";
-import {Grid} from "react-bootstrap";
+import {Grid, Row, Col} from "react-bootstrap";
 import NextTrip from "./NextTrip";
 import TripPreview from "./TripPreview";
 
 import "../../../stylesheets/Trips.css";
 
-const recentTrips = ["moliets18"];
+const recentTrips = ["moliets18", "portugal18"];
 
 class Trips extends Component {
   render() {
     return (
       <div className="content">
-        <Grid>
-          {/*<Row>*/}
-            {/*<Col xs={12}>*/}
-              {/*<NextTrip/>*/}
-            {/*</Col>*/}
-          {/*</Row>*/}
+        <Grid className="thin">
+          <Row>
+            <Col xs={12}>
+              <NextTrip/>
+            </Col>
+          </Row>
           {recentTrips.map(id =>
-            <React.Fragment>
+            <React.Fragment key={id}>
+              <hr className="separator"/>
               <TripPreview tripId={id}/>
             </React.Fragment>
           )}

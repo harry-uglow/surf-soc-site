@@ -7,8 +7,6 @@ import Events from "./events/Events";
 import { Route, BrowserRouter } from "react-router-dom";
 import Header from "./Header";
 
-import "../../stylesheets/App.css"
-
 class App extends Component {
   render() {
     return (

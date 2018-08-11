@@ -2,6 +2,8 @@ import React from "react";
 import {Col, Row, Well} from "react-bootstrap";
 import fresh from "../../../images/fresh.jpg";
 
+import '../../../stylesheets/Event.css';
+
 
 const Event = () => (
   <Well className="event">
@@ -14,7 +16,7 @@ const Event = () => (
         <hr/>
         <p><strong>Date:</strong> 2nd October</p>
       </Col>
-      <Col xs={4}>
+      <Col xs={4} className="well-image">
         <img src={fresh} alt="Freshers Fair"/>
       </Col>
     </Row>

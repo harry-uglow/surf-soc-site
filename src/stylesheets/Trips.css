@@ -1,4 +1,21 @@
-.trip-preview > .header {
+.next-trip {
+  margin: 30px auto 0 auto;
+  background-image: linear-gradient(to bottom, #84d2fc 0%, #e7e7e7 100%);
+  max-width: 920px;
+}
+
+.section-inner > .header {
     text-align: center;
 }
 
+.hype {
+  display: flex;
+}
+
+.hype-text {
+  margin-right: 6px;
+}
+
+.hype-bar {
+  flex-grow: 1;
+}

@@ -1,11 +1,11 @@
 .home-content {
-    top: -20px;
-    position: relative;
-    height: calc(100vh - 57px)
+  height: calc(100vh - 51px);
+  position: relative;
 }
 
 .carousel-container {
     width: 100vw;
+    margin: 0;
 }
 
 .carousel-col {
@@ -27,6 +27,7 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    max-width: 100%;
 }
 
 #surf-logo {
