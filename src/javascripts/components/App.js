@@ -8,6 +8,8 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Header from "./Header";
 import TripFull from "./trips/TripFull";
 
+const recentTrips = ["moliets18", "portugal18"];
+
 class App extends Component {
   render() {
     return (
@@ -19,8 +21,11 @@ class App extends Component {
             <Route exact path="/trips" component={Trips}/>
             <Route path="/committee" component={Committee}/>
             <Route path="/events" component={Events}/>
-            <Route path="/trips/moliets18" component={TripFull}/>
-            <Route path="/trips/portugal18" component={TripFull}/>
+          {recentTrips.map(tripId =>
+            <Route path={"/trips/" + tripId}
+                   render={(props) => <TripFull {...props} tripId={tripId}/>}
+            />
+          )}
         </div>
       </BrowserRouter>
     );

@@ -19,7 +19,7 @@ class Committee extends Component {
 
     return (
       <div className="content">
-        <Grid>
+        <Grid className="thin">
           <Row className="equal">
             {cards}
           </Row>

@@ -6,6 +6,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
     overflow: hidden;
+    text-align: justify;
 }
 
 html {

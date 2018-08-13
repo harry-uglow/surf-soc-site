@@ -2,3 +2,51 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.card-content {
+    display: flex;
+    height: 100%;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-img {
+    flex-grow: 1;
+}
+
+.card-left {
+    padding-right: 15px;
+    text-align: center;
+}
+
+.card-left p {
+    line-height: 1.2;
+    margin: 10px 0 0 0;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.equal {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.panel {
+    height: calc(100% - 20px);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-primary > .panel-heading {
+    background-image: linear-gradient(to bottom, #33b2b7 0%, #318d9c 100%);
+    border-color: #33b2b7;
+}

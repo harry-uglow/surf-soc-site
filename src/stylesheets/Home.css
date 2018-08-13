@@ -4,6 +4,7 @@
 }
 
 .carousel-container {
+    padding-top: 0;
     width: 100vw;
     margin: 0;
 }
