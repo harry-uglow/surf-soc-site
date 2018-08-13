@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, ProgressBar, Row, Well} from "react-bootstrap";
-import boardmasters from "../../../images/boardmasters.png";
+import boardmasters from "../../../images/bucs.jpg";
 
 const hypeStart = 1531353600;
 const bucsStart = 1539302400;
@@ -12,7 +12,7 @@ const NextTrip = () => {
       <Row>
         <Col xs={7}>
           <h2>NEXT TRIP</h2>
-          <h5>Our next see us finally return to Newquay for the first time since March
+          <h5>Our next weekender will see us finally return to Newquay for the first time since March
             to take on other unis in the <strong>BUCS Surf Championships</strong>! Expect
             to see some awesome surfing (as well as some not so good surfing) and
             party with other unis over a three-day weekend trip. Also wizard's staff.

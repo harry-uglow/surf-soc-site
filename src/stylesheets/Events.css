@@ -1,0 +1,48 @@
+.well-image {
+  padding: 0;
+}
+
+.well-image img {
+  max-width: 100%;
+}
+
+.well.event {
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #84d2fc 0%, #e7e7e7 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.event-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.event-col {
+  padding-bottom: 24px;
+}
+
+.event-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-details {
+  flex-grow: 1;
+}
+
+.event-details-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-description {
+  flex-grow: 1;
+}
+
+.event-date {
+  margin-bottom: 0;
+}

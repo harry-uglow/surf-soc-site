@@ -18,7 +18,7 @@ const Header = () => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          <LinkContainer to="/about"><NavItem>About</NavItem></LinkContainer>
+          {/*<LinkContainer to="/about"><NavItem>About</NavItem></LinkContainer>*/}
           <LinkContainer to="/trips"><NavItem>Trips</NavItem></LinkContainer>
           <LinkContainer to="/events"><NavItem>Events</NavItem></LinkContainer>
           <LinkContainer to="/committee"><NavItem>Committee</NavItem></LinkContainer>

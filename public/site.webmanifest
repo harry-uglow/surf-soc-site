@@ -1,0 +1,21 @@
+{
+    "name": "IC Surf",
+    "short_name": "IC Surf",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=gAdEA49wM7",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png?v=gAdEA49wM7",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#32b32b",
+    "background_color": "#32b32b",
+    "start_url": "https://union.ic.ac.uk/acc/surf",
+    "display": "standalone",
+    "orientation": "portrait"
+}

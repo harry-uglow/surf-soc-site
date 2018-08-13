@@ -1,9 +1,10 @@
 import React from "react";
-import {Image, Row} from "react-bootstrap";
+import {Image} from "react-bootstrap";
 import YoutubeEmbedVideo from "youtube-embed-video";
 import group from '../../../images/portugal_lunch.jpg'
 
 import '../../../stylesheets/Trips.css';
+import {Link} from "react-router-dom";
 
 const maxPreviewLength = 500;
 
@@ -25,15 +26,15 @@ for (var i = 0; i < 100; i++) {
 }
 
 const TripPreview = ({tripId}) => (
-  <Row className="section-inner">
+  <div className="section-inner">
     <div className="header">
       <h2>{trips[tripId].title}</h2>
       <h5>{trips[tripId].date}</h5>
-      {trips[tripId].video ? <YoutubeEmbedVideo videoId="Hilm2r6mLw4" suggestions={false}/>
-        : <Image className="article-main-img" src={group} responsive /> }
+      {trips[tripId].video ? <YoutubeEmbedVideo className="article-main-media" videoId="Hilm2r6mLw4" suggestions={false}/>
+        : <Image className="article-main-media" src={group} responsive /> }
     </div>
-    <p>{placeholder.substring(0, maxPreviewLength).trim()}... <a>(read more)</a></p>
-  </Row>
+    <p>{placeholder.substring(0, maxPreviewLength).trim()}... <Link to={"/trips/" + tripId}>(read more)</Link></p>
+  </div>
 );
 
 export default TripPreview;

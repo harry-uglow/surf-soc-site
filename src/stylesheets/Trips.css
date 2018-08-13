@@ -1,7 +1,17 @@
 .next-trip {
-  margin: 30px auto 0 auto;
+  margin: 0 auto;
   background-image: linear-gradient(to bottom, #84d2fc 0%, #e7e7e7 100%);
   max-width: 920px;
+}
+
+.next-trip-col {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.next-trip > .row {
+  display: flex;
+  align-items: center;
 }
 
 .section-inner > .header {
