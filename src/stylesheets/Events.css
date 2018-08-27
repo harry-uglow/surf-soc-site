@@ -1,6 +1,6 @@
 @media(min-width:992px){
   .well-image {
-    padding: 0;
+    padding: 0 6px 0 0;
   }
 
   .event-details-text {
