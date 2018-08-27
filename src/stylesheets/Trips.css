@@ -29,3 +29,7 @@
 .hype-bar {
   flex-grow: 1;
 }
+
+.progress-bar {
+  font-size: 13px;
+}

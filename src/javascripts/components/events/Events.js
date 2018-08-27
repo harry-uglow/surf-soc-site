@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import {Grid, Row} from "react-bootstrap";
+import { Col, Grid, Row } from "react-bootstrap";
 
-// import EventsHeader from "./EventsHeader";
 import Event from "./Event";
 
 const events = ["freshFair18", "off18", "firstCSP18", "VGBs18"];
@@ -16,13 +15,16 @@ class Events extends Component {
     return (
       <div className="content">
         <Grid className="thin">
-          {/*<Row>*/}
-            {/*<EventsHeader/>*/}
-          {/*</Row>*/}
+          <Row>
+            <Col smHidden={true} mdHidden={true} lgHidden={true} className="event-header" xs={12}>
+              <p className="event-title">Upcoming Events</p>
+              <hr className="separator no-top" />
+            </Col>
+          </Row>
           {eventPairs.map(eventPair => (
             <Row className="event-row">
-              <Event eventId={eventPair[0]}/>
-              {eventPair[1] ? <Event eventId={eventPair[1]}/> : <div/>}
+              <Event id={eventPair[0]}/>
+              {eventPair[1] ? <Event id={eventPair[1]}/> : <div/>}
             </Row>
           ))}
         </Grid>

@@ -1,32 +1,17 @@
-import React, { Component } from "react";
-import { Col, Row, Grid } from "react-bootstrap";
-import CommitteeCard from "./CommitteeCard";
+import React from "react";
+import { Row, Grid } from "react-bootstrap";
 
 import "../../../stylesheets/Committee.css"
+import CommitteeCards from "./CommitteeCards";
 
-// If we ever get a backend involved, move this to a DB.
-const members = ["Harry", "Josh", "Ellie", "Martina", "Arran", "Dex", "Abi", "James"];
-
-class Committee extends Component {
-  render() {
-    const cards = members.map(name => {
-      return (
-        <Col key={name} xs={12} sm={6}>
-          <CommitteeCard name={name}/>
-        </Col>
-      );
-    });
-
-    return (
-      <div className="content">
-        <Grid className="thin">
-          <Row className="equal">
-            {cards}
-          </Row>
-        </Grid>
-      </div>
-    );
-  }
-}
+const Committee = () => (
+  <div className="content">
+    <Grid className="thin">
+      <Row className="equal">
+        <CommitteeCards />
+      </Row>
+    </Grid>
+  </div>
+);
 
 export default Committee;

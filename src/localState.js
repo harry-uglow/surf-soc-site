@@ -1,47 +1,16 @@
-import baleal from "images/baleal.jpg";
-import group_cliff from "images/group_cliff.jpg";
-import boards from "images/boards.jpg";
-import joash from "images/joashred.jpg";
-import estella from "images/estella.jpg";
-import flo from "images/flo.jpg";
-import filip_surf from "images/filip_surf.jpg";
-import POON from "images/POON.jpg";
-import mellie from "images/mellie.jpg";
-import portugal_lunch from "images/portugal_lunch.jpg";
-
-const topRightUrls = [
-  baleal,
-  group_cliff,
-  boards
-];
-
-const topLeftUrls = [
-  joash,
-  estella
-];
-
-const bottomRightUrls = [
-  flo,
-  filip_surf,
-  POON
-];
-
-const bottomLeftUrls = [
-  mellie,
-  portugal_lunch
-];
-
-const events = [
+export const events = [
   {
+    __typename: 'Event',
     id: "freshFair18",
     title: "Freshers Fair",
     description: "Come and meet the new committee and find out what's in store" +
     " from Surf Soc this year. Plus, a chance to win a free Freshers Trip ticket!!" +
     " (Probably a lie)",
     date: "2nd October",
-    where: "Queens Lawn",
+    where: "Queen's Lawn",
   },
   {
+    __typename: 'Event',
     id: "off18",
     title: "Ocean Film Festival",
     description: "Featuring films such as X, Y and Z, the Ocean Film Festival is always " +
@@ -50,6 +19,7 @@ const events = [
     where: "Union Chapel, Islington",
   },
   {
+    __typename: 'Event',
     id: "firstCSP18",
     title: "Sports Night",
     description: "It's the first sports night of the year, and that means the first surf party! " +
@@ -59,6 +29,7 @@ const events = [
     where: "Metric, 568 & Union bar"
   },
   {
+    __typename: 'Event',
     id: "VGBs18",
     title: "Vengaboys in Metric!",
     description: "Just kidding, this one is very much a placeholder (they all are really). But " +
@@ -73,8 +44,9 @@ for (let i = 0; i < 100; i++) {
   text += "We went surfing and it was fun. "
 }
 
-const trips = [
+export const trips = [
   {
+    __typename: 'Trip',
     id: "moliets18",
     title: "Moliets 2018",
     date: "1st - 7th July",
@@ -82,6 +54,7 @@ const trips = [
     text
   },
   {
+    __typename: 'Trip',
     id: "portugal18",
     title: "Portugal 2018",
     date: "24th - 31st March",
@@ -90,8 +63,9 @@ const trips = [
   }
 ];
 
-const committee = [
+export const committee = [
   {
+    __typename: 'Committee',
     name: "Harry",
     position: "President",
     degree: "Computing",
@@ -104,24 +78,28 @@ const committee = [
     "starting to pay off. Looking forward to another great year.",
   },
   {
+    __typename: 'Committee',
     name: "Josh",
     position: "Vice President",
     degree: "Ask",
     description: "",
   },
   {
+    __typename: 'Committee',
     name: "Martina",
     position: "Treasurer",
     degree: "Biochemistry?",
     description: "",
   },
   {
+    __typename: 'Committee',
     name: "Ellie",
     position: "Tour Secretary",
     degree: "Chemistry",
     description: "",
   },
   {
+    __typename: 'Committee',
     name: "Arran",
     position: "Social Secretary",
     degree: "Biology",
@@ -133,22 +111,25 @@ const committee = [
     "tastes like Baked Beans. Peace out.",
   },
   {
+    __typename: 'Committee',
     name: "Dex",
     position: "Liability",
     degree: "Chemistry",
     description: "",
   },
   {
+    __typename: 'Committee',
     name: "Abi",
     position: "Secretary",
     degree: "Ask",
     description: "",
   },
   {
+    __typename: 'Committee',
     name: "James",
     position: "Secretary",
     degree: "Air-bro-nautics",
     description: "",
-  },
+  }
 ];
 

@@ -6,20 +6,16 @@ import 'bootstrap/dist/css/bootstrap-theme.css'
 import App from './javascripts/components/App';
 import registerServiceWorker from './registerServiceWorker';
 import ApolloClient from 'apollo-boost';
+import { committee, events, trips } from './localState'
 
-const client = new ApolloClient({
+export const client = new ApolloClient({
   clientState: {
     defaults: {
-      isConnected: true
+      committee,
+      events,
+      trips,
     },
-    resolvers: {
-      Mutation: {
-        updateNetworkStatus: (_, { isConnected }, { cache }) => {
-          cache.writeData({ data: { isConnected }});
-          return null;
-        }
-      }
-    }
+    resolvers: {}
   }
 });
 
