@@ -1,7 +1,5 @@
 .next-trip {
-  margin: 0 auto;
   background-image: linear-gradient(to bottom, #84d2fc 0%, #e7e7e7 100%);
-  max-width: 920px;
 }
 
 .next-trip-col {
@@ -9,10 +7,10 @@
   padding-right: 30px;
 }
 
-.next-trip > .row {
-  display: flex;
-  align-items: center;
-}
+/*.next-trip .well-image img {*/
+  /*margin-top: auto;*/
+  /*margin-bottom: auto;*/
+/*}*/
 
 .section-inner > .header {
     text-align: center;
@@ -33,3 +31,15 @@
 .progress-bar {
   font-size: 13px;
 }
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+img#next-trip {
+  display: inherit;
+  vertical-align: middle;
+}
+

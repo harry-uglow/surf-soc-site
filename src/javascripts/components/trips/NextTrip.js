@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, ProgressBar, Row, Well} from "react-bootstrap";
+import { Col, Image, ProgressBar, Row, Well } from "react-bootstrap";
 import bucs from "../../../images/bucs.jpg";
 import { secondsToString } from "../../utils";
 
@@ -19,10 +19,19 @@ class NextTrip extends React.Component {
   render() {
     return this.state.secondsFromNow > 0 ? (
       <React.Fragment>
-        <Well className="next-trip">
-          <Row>
-            <Col xs={7}>
-              <h2>NEXT TRIP</h2>
+        <Well className="custom next-trip">
+          <Col smHidden mdHidden lgHidden>
+            <p className={"event-title"}>NEXT TRIP</p>
+          </Col>
+          <Row className="well-details">
+            <Col sm={6} smPush={6} md={5} mdPush={7} className="well-image">
+              <span className="helper" />
+              <Image id="next-trip" src={bucs} rounded alt="BUCS"/>
+            </Col>
+            <Col sm={6} smPull={6} md={7} mdPull={5} className="well-details-text">
+              <Col xsHidden>
+                <p className={"event-title"}>NEXT TRIP</p>
+              </Col>
               <h5>Our next weekender will see us finally return to Newquay for the first time since March
                 to take on other unis in the <strong>BUCS Surf Championships</strong>! Expect
                 to see some awesome surfing (as well as some not so good surfing) and
@@ -41,9 +50,6 @@ class NextTrip extends React.Component {
                     label={secondsToString(this.state.secondsFromNow)}/>
                 </div>
               </div>
-            </Col>
-            <Col xs={5} className="well-image">
-              <img src={bucs} alt="Boardmasters"/>
             </Col>
           </Row>
         </Well>

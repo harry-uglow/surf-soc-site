@@ -115,7 +115,13 @@ export const committee = [
     name: "Dex",
     position: "Liability",
     degree: "Chemistry",
-    description: "",
+    description: "If you’re looking for a guy who drinks too much, gets very " +
+    "messy, and cant really surf, then I’m your man. I’m looking forward to " +
+    "the new wave of Freshers, and know we will all have a gnarly time. I’ve " +
+    "had my highs and I’ve had my lows. With my proudest moment being when I " +
+    "did a 360 on my board in Morocco (kinda), to my messiest moment of being " +
+    "in my underwear on a Cornish dance floor, I am looking forward to another " +
+    "year of shenanigans.",
   },
   {
     __typename: 'Committee',
