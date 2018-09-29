@@ -69,11 +69,12 @@ export const committee = [
     name: "Harry",
     position: "President",
     degree: "Computing",
-    description: "I’m a fully qualified wizard, an eclectic pineapple connoisseur " +
+    description: "I’m a fully qualified wizard, a pineapple connoisseur " +
     "and a firm believer that it is NOT possible to grow boneless chickens. " +
     "You’ll most commonly find me being an utter moron in the student union, " +
     "Newquay or sometimes even further afield. Not the best surfer by " +
-    "any measure, but in spite of my hungover cries that “we’ve all " +
+    "any measure (which is a bit of a recurring trend in these committee profiles), " +
+    "but in spite of my hungover cries that “we’ve all " +
     "been surfing before”, I think all these trips might actually be " +
     "starting to pay off. Looking forward to another great year.",
   },
@@ -81,22 +82,42 @@ export const committee = [
     __typename: 'Committee',
     name: "Josh",
     position: "Vice President",
-    degree: "Ask",
-    description: "",
+    degree: "Materials",
+    description: "I’m going to get this out early: I lived " +
+    "in Newquay for 8 months. I mention it from time to time, and it’s where I " +
+    "fell in love with surfing. Come rain or shine (invariably rain) I’ll always " +
+    "be wet-suited and booted ready to get down to the beach and catch some party " +
+    "waves. I’m by no means the best surfer however I do know flip-flops are always an " +
+    "appropriate footwear choice. I am blessed with the ability to recall " +
+    "song lyrics, and cursed with a terrible singing voice, as a compromise " +
+    "I promise to always bring speakers. I look forward to sharing a hell of a year " +
+    "ahead, and can’t wait to get in the water \u{1F919}",
   },
   {
     __typename: 'Committee',
     name: "Martina",
     position: "Treasurer",
-    degree: "Biochemistry?",
-    description: "",
+    degree: "Biochemistry",
+    description: "Hi there, as some of you may know, I'm the little spanish gremlin! " +
+    "Basically a little entity with loads of energy, a bit of a funny accent and " +
+    "loads of love for surfsoc. If you wish to find me, go where the waves are " +
+    "shreeeeding or where the beers are rolling.",
   },
   {
     __typename: 'Committee',
     name: "Ellie",
     position: "Tour Secretary",
     degree: "Chemistry",
-    description: "",
+    description: "Skills: fancy dress, telling people how great surfing is, " +
+    "using the biggest surfboard I can find, unironic bad dancing, " +
+    "telling people how great pole dancing is, " +
+    "staying motivated whilst hungover, resident Loud Voice.\n" +
+    "Not Skills: surfing, speaking quietly, remaining in a sensible location on " +
+    "nights out, remaining calm around sharks, catching waves with a hangover, " +
+    "being unafraid of sharks, drinking heavily, sharks.\n" +
+    "If you need me, follow the sound of my voice. I'm " +
+    "pumped for my 5th year in SurfSoc, so trust me, you won't regret joining. Also " +
+    "there aren't actually any sharks.",
   },
   {
     __typename: 'Committee',
@@ -127,15 +148,24 @@ export const committee = [
     __typename: 'Committee',
     name: "Abi",
     position: "Secretary",
-    degree: "Ask",
-    description: "",
+    degree: "Physics",
+    description: "I joined IC surf soc 2 years ago but then went on a year abroad " +
+    "and now won’t stop mentioning the year abroad. Did I mention I did a year " +
+    "abroad? Dos cervezas por favor xx I still absolutely love the ocean and " +
+    "surfing and everything about surf soc despite essentially being a glorified " +
+    "beginner (foamies 5eva). Very excited for the year ahead and to reclaim my " +
+    "title of Mosquito Muerta.",
   },
   {
     __typename: 'Committee',
     name: "James",
     position: "Secretary",
     degree: "Air-bro-nautics",
-    description: "",
+    description: "Although only starting surfing just a year ago on a holiday " +
+    "with friends, I’m totally hooked. From splashing around aimlessly in the " +
+    "white water on the fresher’s trip to catching my first greenies in Portugal, " +
+    "last year was awesome! Can’t wait to do it all over again and enjoy one too " +
+    "many pints in Newquay’s Chy Bar as the lightweight that I am.",
   }
 ];
 

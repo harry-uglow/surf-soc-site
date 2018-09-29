@@ -1,9 +1,28 @@
 import React from "react";
 import { Col, Image, Panel, Row } from "react-bootstrap";
 
-import harry from "../../../images/harry.jpg"
+import Harry from "../../../images/harry.jpg"
+import Abi from "../../../images/abi.jpg"
+import Arran from "../../../images/arran.jpg"
+import Dex from "../../../images/dex.jpg"
+import James from "../../../images/james.jpg"
+import Josh from "../../../images/josh.jpg"
+import Ellie from "../../../images/harry.jpg"
+import Martina from "../../../images/martina.jpg"
+
 import { gql } from "apollo-boost";
 import { Query } from "react-apollo/react-apollo.browser.umd";
+
+const imgs = {
+  Harry,
+  Abi,
+  Arran,
+  Dex,
+  James,
+  Josh,
+  Ellie,
+  Martina,
+};
 
 const CommitteeCards = () => {
   return (
@@ -29,7 +48,7 @@ const CommitteeCards = () => {
                     <Col xs={4} className="card-left">
                       <div className="flex-col">
                         <div className="card-img">
-                          <Image src={harry} alt="Harry" circle/>
+                          <Image src={imgs[name]} alt="Harry" circle/>
                         </div>
                         <p><strong>Position</strong><br/>{position}</p>
                         <p><strong>Degree</strong><br/>{degree}</p>
