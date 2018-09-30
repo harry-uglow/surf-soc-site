@@ -6,13 +6,14 @@ import 'bootstrap/dist/css/bootstrap-theme.css'
 import App from './javascripts/components/App';
 import registerServiceWorker from './registerServiceWorker';
 import ApolloClient from 'apollo-boost';
-import { committee, events, trips } from './localState'
+import { committee, events, pastEvents, trips } from './localState'
 
 export const client = new ApolloClient({
   clientState: {
     defaults: {
       committee,
       events,
+      pastEvents,
       trips,
     },
     resolvers: {}

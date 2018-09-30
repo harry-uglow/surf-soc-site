@@ -16,10 +16,11 @@ class HomeCarousel extends Component {
 
 
   render() {
-    const carouselItems = this.props.imgUrls.map((url, index) => {
+    const imgInfo = this.props.imgUrls;
+    const carouselItems = imgInfo.urls.map((url, index) => {
       return (
         <Carousel.Item key={index}>
-          <img alt={url} src={url} />
+          <img alt={imgInfo.alts[index]} src={url} />
         </Carousel.Item>
       );
     });

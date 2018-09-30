@@ -19,27 +19,40 @@ import portugal_lunch from "../../../images/portugal_lunch.jpg";
 import logo from "../../../images/surf_logo.png"
 
 const TRANSITION_DELAY = 1250;
-const topRightUrls = [
-  baleal,
-  group_cliff,
-  boards
-];
 
-const topLeftUrls = [
-  joash,
-  estella
-];
+const topRightUrls = {
+  urls: [
+    baleal,
+    group_cliff,
+    boards
+  ],
+  alts: ["Baleal", "Group cliff", "Boards"]
+};
 
-const bottomRightUrls = [
-  flo,
-  filip_surf,
-  POON
-];
+const topLeftUrls = {
+  urls: [
+    joash,
+    estella
+  ],
+  alts: ["Joash", "Estella"]
+};
 
-const bottomLeftUrls = [
-  mellie,
-  portugal_lunch
-];
+const bottomRightUrls = {
+  urls: [
+    flo,
+    filip_surf,
+    POON
+  ],
+  alts: ["Flo", "Filip Surf", "POON"]
+};
+
+const bottomLeftUrls = {
+  urls: [
+    mellie,
+    portugal_lunch
+  ],
+  alts: ["Mellie", "Portugal Lunch"]
+};
 
 class Home extends Component{
 

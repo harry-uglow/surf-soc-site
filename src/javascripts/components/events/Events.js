@@ -1,37 +1,27 @@
 import React from "react";
 import { Col, Grid, Row } from "react-bootstrap";
 
-import Event from "./Event";
-import { gql } from "apollo-boost/lib/index";
-import { Query } from "react-apollo/react-apollo.browser.umd";
+import UpcomingEvents from "./UpcomingEvents";
+import PastEvents from "./PastEvents";
 
 const Events = () => (
   <div className="content">
-    <Grid className="thin">
+    <Grid>
       <Row>
         <Col smHidden={true} mdHidden={true} lgHidden={true} className="event-header" xs={12}>
           <p className="event-title">Upcoming Events</p>
           <hr className="separator no-top"/>
         </Col>
       </Row>
-      <Query query={gql`{
-        events @client {
-          id
-          title
-          description
-          date
-          where
-        }
-      }`}>
-        {({ loading, error, data: { events } }) =>
-          loading ? <p>Loading...</p>
-            : error ? <p>Error :(</p>
-            : (<Row className="event-row">
-                {events.map(event => <Event event={event}/>)}
-              </Row>
-            )
-        }
-      </Query>
+      <UpcomingEvents />
+      <hr className="separator no-top"/>
+      <div className="section-inner">
+        <div className="header">
+          <h2>Past Events</h2>
+          <h5>A brief reminder of some of last year's events you can expect to see again this year</h5>
+        </div>
+      </div>
+      <PastEvents />
     </Grid>
   </div>
 );

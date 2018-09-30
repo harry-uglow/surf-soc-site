@@ -9,26 +9,28 @@
 
 .card-content {
   display: flex;
+  flex-wrap: wrap;
   height: 100%;
+  margin-bottom: 3px;
 }
 
 .card-img img {
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .card-left {
   padding-right: 15px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .card-left p {
   line-height: 1.2;
-  margin: 10px 0 0 0;
+  margin: 0 0 10px;
 }
 
 .flex-col {
-  display: flex;
-  flex-direction: column;
   height: 100%;
 }
 
@@ -41,6 +43,13 @@
 .panel {
   height: calc(100% - 20px);
   background-image: linear-gradient(to bottom, #ffffff 0%, #9cb7c2 100%);
+  margin: 0 auto;
+}
+
+@media(max-width:991px){
+  .panel {
+    max-width: 480px;
+  }
 }
 
 .panel-body {
