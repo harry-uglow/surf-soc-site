@@ -9,7 +9,6 @@ import {Link} from "react-router-dom";
 const maxPreviewLength = 500;
 
 const TripPreview = ({ trip: { id, title, date, video, text } }) => {
-  console.log(text);
   return (
     <div className="section-inner">
       <div className="header">
@@ -21,6 +20,6 @@ const TripPreview = ({ trip: { id, title, date, video, text } }) => {
       <p>{text[0].join(" ").substring(0, maxPreviewLength).trim()}... <Link to={"/trips/" + id}>(read more)</Link></p>
     </div>
   );
-}
+};
 
 export default TripPreview;

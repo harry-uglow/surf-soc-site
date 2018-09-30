@@ -20,29 +20,29 @@ const includeImages = images => (section, index) => (
   </React.Fragment>
 );
 
-const TripFull = ({ id }) => (
-  <Query
-    query={gql`query Trip($id: String!) {
-      trips(id: $id) @client {
-        title
-        date
-        video
-        text
-        images
-      }
-    }`}
-    variables = {{ id }}
-  >
+const TripFull = ({ id: actualID }) => (
+  <Query query={gql`{
+    trips @client {
+      id
+      title
+      date
+      author
+      video
+      text
+      images
+    }
+  }`}>
     {({ loading, error, data: { trips } }) =>
       loading ? <p>Loading...</p>
         : error ? <p>Error :(</p>
-        : trips.map(({ title, date, video, text, images }) =>
+        : trips.filter(({ id }) => id === actualID).map(({ title, date, author, video, text, images }) =>
           <div className="content">
             <Grid className="thin">
               <div className="section-inner">
                 <div className="header">
                   <h2>{title}</h2>
                   <h5>{date}</h5>
+                  <h5>Writeup by {author}</h5>
                   {video ? <YoutubeEmbedVideo className="article-main-media" videoId="Hilm2r6mLw4" suggestions={false}/>
                     : <Image className="article-main-img" src={group} responsive /> }
                 </div>

@@ -4,7 +4,7 @@ import arran from "./images/arran.jpg";
 import dex from "./images/dex.jpg";
 import james from "./images/james.jpg";
 import josh from "./images/josh.jpg";
-import ellie from "./images/harry.jpg";
+import ellie from "./images/ellie.jpg";
 import martina from "./images/martina.jpg";
 import wetherspoons from "./images/wetherspoons.jpg";
 import stSebMain from "./images/stsebmain.jpg";
@@ -119,18 +119,19 @@ export const trips = [
     id: "moliets18",
     title: "Moliets 2018",
     date: "1st - 7th July",
+    author: "Josh",
     video: true,
     text: [
       [
         "Bonjour mon petit Chou-fleurs,",
         "",
-        "As the tan-lines fade and the crushing realism of football requiring 4 more years to come home settles in, we draw to a close another epic year in the saga of Surf Soc, and what finer highlight could there be than the most recent excursion to Star Surf Camp, Moliets. The week started for most with the traditional pre-flight Spoons, followed by the seemingly also traditional flight delay, courtesy of RyanAir; but in all but a heartbeat the ground of what some amongst us call home was rising to meet us, the land of the mimes and trophy cabinet of the football World Cup, France.",
+        "As the tan-lines fade and the crushing realism of football requiring 4 more years to come home settles in, we draw to a close another epic year in the saga of Surf Soc, and what finer highlight could there be than the most recent excursion to Star Surf Camp, Moliets? The week started for most with the traditional pre-flight Spoons, followed by the seemingly also traditional flight delay courtesy of Ryanair, but in all but a heartbeat the ground of what some amongst us call home was rising to meet us. The land of the mimes and trophy cabinet of the football World Cup, France.",
       ],
       [
-        "Evenings turned into days as they have a tendency to, and before we all knew it time had flown by in the blink of an eye; however, it would be a shame to not make a note in some form of the fun and festivities that transpired during the course of the “semaine”.",
+        "Evenings turned into days as they have a tendency to, and in the blink of an eye the week was over; however, it would be a shame not to make a note in some form of the fun and festivities that transpired during the course of the “semaine”.",
         "",
         "bSan Sebastian",
-        "In the afternoon of our third day the gang headed to San Sebastian, a picturesque town situation on the north coast of Spain in the Basque region. We were released onto the unsuspecting calle’s and left to explore the numerous tapas bars, with Spanish omelettes aplenty and cheap beer to enjoy. The afternoon was shared with many cinnamon sugar churros and a trip to Lidl to restock and appreciate the difference in culture between the Spanish and the English way of life, most strikingly the €26 leg of Jamón serrano greeting us in the entrance, not something you’d find in the UK."
+        "In the afternoon of our third day the gang headed to San Sebastian, a picturesque town situated on the north coast of Spain in the Basque region. We were released onto the unsuspecting calle’s and left to explore the numerous tapas bars, with Spanish omelettes aplenty and cheap beer to enjoy. The afternoon was shared with many cinnamon sugar churros and a trip to Lidl to restock and appreciate the difference in culture between the Spanish and the English way of life, most strikingly the €26 leg of Jamón serrano greeting us in the entrance, not something you’d find in the UK."
       ],
       [
         "With Sangria bottles and people at an agreeable ratio of 1:1, the group divided into 2 interests, those willing to bravely encamp deep within enemy territory to proudly support England in their quarter final play-off’s against the football powerhouse of Columbia, and those who wanted to ascend a hill and enjoy a spectacular view of a sunset and play with some cannons. The evening concluded with a thrilling game of football, many photos of cannons between legs, and a round of unexpectedly expensive Jäger bombs in a bar called El Anden, before driving back over the border to France. Got to love living with freedom of movement."
@@ -147,7 +148,7 @@ export const trips = [
       "Naturally, one of the highlights of this game was the amount of times you were able to say “I’m going to bang you”, and the great showdown between Tag Teams “Sceriffo Rowina”, “Vice Jattie” and Peter “Rinnegato” Whalley, where Hattie’s cries of innocence still ring in everyone’s ear, especially James’ who was sat next to her and experienced the equivalent decibel level of a Boeing 737 engine, with an approximate turning circle of 1.4 km.",
       ],
       [
-        "A surf soc trip would, of course, not be complete without the traditional evening game of werewolves and villages. With James Cowx’s lyrical tone transporting us all to a faraway village in a medieval time, where the werewolves awake at night and the dead don’t speak, many accusations flew across the room to responses of “Me?! A werewolf?! In this game?!”, before invariably being revealed as a werewolf and lynched. A hell of a game, but as a way of a hint, here’s what to avoid doing to not be accused of being a werewolf:",
+        "A surf soc trip would, of course, not be complete without the traditional evening game of werewolves and villagers. With James “Cowx“’s lyrical tone transporting us all to a faraway village in a medieval time, where the werewolves awake at night and the dead don’t speak, many accusations flew across the room to responses of “Me?! A werewolf?! In this game?!”, before invariably being revealed as a werewolf and lynched. A hell of a game, but as a way of a hint, here’s what to avoid doing to not be accused of being a werewolf:",
         "• Being too loud, people will think you’re overcompensating",
         "• Being too quiet, people will think you’re trying to avoid being detected",
         "• Accusing someone straight away, people will think you’re trying to deflect attention",
@@ -159,13 +160,13 @@ export const trips = [
         "Like any self respecting surf soc trip abroad, the skills of restraint, strength, temptation and cunning were put to the test in the traditional manner, a round robin in the game of champions, flunkyball.",
       ],
       [
-        "The most tantalising and exciting scenes sprung from the last place play off, which really turned into a game for the fans, it concluded, to no one’s surprise, with both teams being disqualified for cheating, but in many ways this was greater than a win. Whilst much shouldn’t be said about this game, what can be mentioned is that if Hattie didn’t want projectiles to be aimed at her, she shouldn’t have had a literal target on her leg."
+        "The most tantalising and exciting scenes sprung from the last place play off, which really turned into a game for the fans. It concluded, to no one’s surprise, with both teams being disqualified for cheating, but in many ways this was greater than a win. Whilst much shouldn’t be said about this game, what can be mentioned is that if Hattie didn’t want projectiles to be aimed at her, she shouldn’t have had a literal target on her leg."
       ],
       [
-        "Of course, this brief snapshot of our time at Moliets would be incomplete without the mention of Star Surf's very own Boardmasters festival that took place while we were there; although there were plenty of breathy acoustic guitar players, coupled with a guy’s spoken word poetry about Brexit (summary: it's bad and hurts our feelings) we managed to throw a couple of real world acts into the mix. Our very own Kyle Scheps and James Cowx toed the line between performance and art in their renditions of Demons - Imagine Dragons, and Sandstorm - Darude, respectively. Kyle took the stage armed with nothing but his soulful voice and had the audience swaying while he belted out the vocals, I’m pretty sure I saw roses and underwear being thrown at the stage afterwards. Cowx delivered what the audience had always wanted, but had never known they’d needed, Darude Sandstorm on an old plastic recorder he found in a cave in Derbyshire. Whipping the crowd into a frenzy until he released them on the drop, James surely has a magic touch when it comes to handling unusual instruments in front of a crowd.",
+        "Of course, this brief snapshot of our time at Moliets would be incomplete without the mention of Star Surf's very own Boardmasters festival that took place while we were there; although there were plenty of breathy acoustic guitar players, coupled with a guy’s spoken word poetry about Brexit (summary: it's bad and hurts our feelings) we managed to throw a couple of real world acts into the mix. Our very own Kyle Scheps and James Cowx toed the line between performance and art in their renditions of Demons - Imagine Dragons, and Sandstorm - Darude, respectively. Kyle took the stage armed with nothing but his soulful voice and had the audience swaying while he belted out the vocals. I’m pretty sure I saw roses and underwear being thrown at the stage afterwards. Cowx delivered what the audience had always wanted, but had never known they’d needed, Darude Sandstorm on an old plastic recorder he found in a cave in Derbyshire. Whipping the crowd into a frenzy until he released them on the drop, James surely has a magic touch when it comes to handling unusual instruments in front of a crowd.",
       ],
       [
-        "And now, as the flunkyball of time collides with the bottles of destiny, and the beer drops of fate land on the head of regret, we say goodbye to another year at Imperial. For some this now spells the beginning of actual adult life, paying taxes and finding ways to make the financial quarter more quarterly. For others there’s a few more years left in which to enjoy metric nights and long summers (depending if that internship comes through), either way, there will be more trips to come, and more nights at the union to enjoy together. Hope to see you around soon."
+        "And now, as the flunkyball of time collides with the bottles of destiny, and the beer drops of fate land on the head of regret, we say goodbye to another year at Imperial. For some this now spells the beginning of actual adult life, paying taxes and finding ways to make the financial quarter more quarterly. For others there’s a few more years left in which to enjoy metric nights and long summers (or not if that internship comes through). Either way, there will be more trips to come, and more nights at the union to enjoy together. Hope to see you around soon."
       ]
     ],
     images: [
@@ -177,6 +178,7 @@ export const trips = [
     id: "portugal18",
     title: "Portugal 2018",
     date: "24th - 31st March",
+    author: "Flo",
     video: false,
     text: [text],
     images: []

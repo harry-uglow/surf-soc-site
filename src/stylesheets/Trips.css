@@ -32,12 +32,6 @@
   font-size: 13px;
 }
 
-.helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
 img#next-trip {
   display: inherit;
   vertical-align: middle;
