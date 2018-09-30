@@ -164,3 +164,25 @@ nav.navbar {
   flex-direction: column;
   padding-right: 10px;
 }
+
+.loading-shaka {
+  width: 60px;
+  height: 60px;
+  animation-name: spin;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.loading-shaka.video {
+  position:relative;
+  top: -160px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(330deg);
+  } to {
+      transform: rotate(360deg);
+    }
+}

@@ -24,6 +24,12 @@ import bowling from "./images/bowling.jpg";
 import curry from "./images/curry.jpg";
 import pancakes from "./images/pancakes.jpg";
 import acc from "./images/acc.jpg";
+import baleal from "./images/baleal.jpg";
+import estella from "./images/estella.jpg";
+import joashred from "./images/joashred.jpg";
+import supercafe from "./images/supercafe.jpg";
+import cliffGroup from "./images/cliff_group.jpg";
+import dipsy from "./images/dipsy.jpg";
 
 
 
@@ -180,8 +186,27 @@ export const trips = [
     date: "24th - 31st March",
     author: "Flo",
     video: false,
-    text: [text],
-    images: []
+    text: [
+      [
+        "After the introduction of the Easter Portugal trip last year, it was unsurprising that this year's tickets went in a flash. 48 of our finest and most dedicated Imperial surfers descended onto Lisbon airport in our favourite number one airline, easyjet. We were met by Mr. Uglow who had enjoyed a pleasant stay in a local airbnb as, overcome with excitement, he involuntarily decided to fly out a day early. With hopes in our hearts of an epic week of surf, sun and smash we embarked onto the airport transfer. The driver bashed around corners and barged through roundabouts, getting us there quicker and more car sick than anyone could’ve wished for.",
+      ],
+      [
+        "Baleal looked as stunning as we remembered it to be: cheap sangria, insanely addictive corn snacks, 2 for 1 pastel de natas, lovely rock formations, soft sand and, quite usefully, an ocean full of waves (truly a surf soc members dream). A group of early settlers were found already on a few waves of their own, lounging in the hostel. These brave men and women had bitten the bullet and travelled straight from the union the night of the Spring Carnival. It always seems like a good idea at the time however upon arrival an ex-social sec, Mr. Churchill, was nowhere to be found. The tales say he shone too brightly and too beautifully for this world, exploring the local specialities found in the beverage section of the beloved supermarket. That night, we feasted on Portuguese roast chicken and heavenly, buttery rice before retiring to our bunks, ready for a week of surfing but exhausted from our journey through shitty airports, crying babies and drivers with loose interpretations of speed limits.",
+      ],
+      [
+        "We spent the first morning going through the usual motions of being introduced to the hostel, the rules and, most importantly, the surf instructors. People shimmied into wet-suits, slapped on sunscreen and waddled to the beach in doubled-up formation.",
+        "Everyone was impressed at the quality of teaching by the instructors. Beginners learned how to pop up and ride their first waves and even the kookiest of kooks improved their skills out back. The afternoons were spent going out surfing again (if you were as fit as Mr. Sassy pants and Fresher Flip), or cycling along the coast and were always complimented by a daily hang out at the number one place in town; the supermarket. 2 for 1€ beers and a number 9 baguette along with ice creams from our childhood made for a relaxing pre-dinner atmosphere and prepared us for the evening antics.",
+      ],
+      [
+        "As some of you may know, flunkyball is a traditional German beach game which has been lovingly adopted by the club and is played on every trip abroad. A supermarket session was sacrificed as we headed down to the beach, hands full with stubbies, water bottles and the FINEst of space bags. Our imperial surfers are fierce flunkyball players. We threw, we ran, we drank, we laughed, we gagged a little, some tears were shed and we swore a lot. In the end no one knew who won, but we all know we battled hard as we swayed back to the hostel for dinner. Unfortunately it appeared as if the hostel had suddenly run out of cutlery, leading to a feast enjoyed with our hands or straight off the plate. It was not an elegant sight, and the hostel staff watched in awe at the primal scene displayed to them."
+      ],
+      [
+        "The week ended with another tradition: a fun filled night of fancy dress and games. Highlights include a boot-leg Dipsy from the teletubbies, a pack of m&m's, an m&m and eminem. Truths were uncovered in rounds of back to back and legs twisted playing twister. The night ended in the beach bar with our resident pole dancer doing the splits on a sticky dance floor.",
+      ],[
+        "This trip many memories were made and our passion for surfing grew! As everyone boards the flight back to grey london the post trip blues set in. But there is hope- summer trip has yet to come!"
+      ]
+    ],
+    images: [baleal, joashred, supercafe, estella, dipsy, cliffGroup]
   }
 ];
 

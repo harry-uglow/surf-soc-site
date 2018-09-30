@@ -29,7 +29,7 @@ const CommitteeCards = () => {
                     <Col xs={6} md={4} className="card-left">
                       <div className="flex-col">
                         <div className="card-img">
-                          <Image src={img} alt="Harry" circle/>
+                          <Image src={img} alt={name} circle/>
                         </div>
                         <p><strong>Position</strong><br/>{position}</p>
                         <p><strong>Degree</strong><br/>{degree}</p>

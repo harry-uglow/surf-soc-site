@@ -1,10 +1,10 @@
 import React from "react";
-import {Image} from "react-bootstrap";
-import YoutubeEmbedVideo from "youtube-embed-video";
 import group from '../../../images/portugal_lunch.jpg'
+import YoutubeEmbedVideo from "youtube-embed-video";
 
 import '../../../stylesheets/Trips.css';
 import {Link} from "react-router-dom";
+import { Image } from "react-bootstrap";
 
 const maxPreviewLength = 500;
 

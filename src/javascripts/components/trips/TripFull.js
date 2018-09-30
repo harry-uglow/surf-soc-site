@@ -1,11 +1,11 @@
 import React from "react";
-import {Grid, Image} from "react-bootstrap";
-import YoutubeEmbedVideo from "youtube-embed-video";
+import { Grid, Image } from "react-bootstrap";
 import group from '../../../images/portugal_lunch.jpg'
 
 import '../../../stylesheets/Trips.css';
 import { gql } from "apollo-boost";
 import { Query } from "react-apollo/react-apollo.browser.umd";
+import YoutubeEmbedVideo from "youtube-embed-video";
 
 const separateLines = line => (
   line[0] === 'b'
@@ -44,7 +44,7 @@ const TripFull = ({ id: actualID }) => (
                   <h5>{date}</h5>
                   <h5>Writeup by {author}</h5>
                   {video ? <YoutubeEmbedVideo className="article-main-media" videoId="Hilm2r6mLw4" suggestions={false}/>
-                    : <Image className="article-main-img" src={group} responsive /> }
+                    : <Image className="article-main-media" src={group} responsive /> }
                 </div>
                 {text.map(includeImages(images))}
               </div>
