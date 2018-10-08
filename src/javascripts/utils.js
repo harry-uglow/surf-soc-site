@@ -1,3 +1,6 @@
+import React from "react";
+
+
 export const shuffleArray = inputArray => {
   let array = inputArray.slice();
   for (let i = array.length - 1; i > 0; i--) {
@@ -28,3 +31,11 @@ export const secondsToString = (seconds) => {
   return numdays + " days, " + numhours + ":" + numminutes + ":" + numseconds + "";
 
 };
+
+export const formatDescr = text => (
+  text[0] === '|'
+    ? <a href={text.substring(1).split("|", 2)[1]}>{text.substring(1).split("|", 2)[0]}</a>
+    : text[0] === 'b'
+    ? <strong>{text.substring(1)}</strong>
+    : text
+);

@@ -7,10 +7,13 @@
   padding-right: 30px;
 }
 
-/*.next-trip .well-image img {*/
-  /*margin-top: auto;*/
-  /*margin-bottom: auto;*/
-/*}*/
+.next-trip.well.custom {
+  margin-top: 12px;
+}
+
+.next-trip-descr {
+  line-height: 1.3;
+}
 
 .section-inner > .header {
     text-align: center;
@@ -35,5 +38,9 @@
 img#next-trip {
   display: inherit;
   vertical-align: middle;
+}
+
+.well-details-text p {
+  margin-bottom: 6px;
 }
 

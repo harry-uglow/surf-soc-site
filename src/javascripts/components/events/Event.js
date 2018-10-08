@@ -2,12 +2,7 @@ import React from "react";
 import { Col, Image, Row, Well } from "react-bootstrap";
 
 import '../../../stylesheets/Events.css';
-
-const formatDescr = description => (
-  description[0] === '|'
-    ? <a href={description.substring(1).split("|", 2)[1]}>{description.substring(1).split("|", 2)[0]}</a>
-    : description
-);
+import { formatDescr } from "../../utils";
 
 const Event = ({ event: { id, title, description, date, where, img } }) => (
   <Col sm={6} className="event-col">

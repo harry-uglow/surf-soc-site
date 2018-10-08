@@ -28,6 +28,8 @@ import joashred from "./images/joashred.jpg";
 import supercafe from "./images/supercafe.jpg";
 import cliffGroup from "./images/cliff_group.jpg";
 import dipsy from "./images/dipsy.jpg";
+import bucs from "./images/bucs.jpg";
+import freshtripsurf from "./images/freshtripsurf.jpg";
 
 
 
@@ -97,6 +99,52 @@ for (let i = 0; i < 100; i++) {
   text[0] += "We went surfing and it was fun. "
 
 }
+
+export const futureTrips = [
+  {
+    __typename: 'FutureTrip',
+    id: "fresherstrip18_1",
+    header: "ON SALE SOON",
+    date: "2nd - 4th November",
+    release: "9th October @ 6pm",
+    price: "£45",
+    where: "Newquay, Cornwall",
+    text: ["Our FRESHERS TRIP is set to be the year's biggest Imperial weekender " +
+      "with us taking over Belushi's both night and day. A ticket includes coach transport, " +
+      "accommodation, breakfast and 25% off food at Belushi's. For those of you who " +
+      "don't have a board or wetsuit, cheap ",
+      "bkit hire",
+      " will be available on the trip. Also, if you're " +
+      "a complete beginner or just looking to ease back into the sport, we will be " +
+      "offering subsidised ",
+      "bsurf lessons",
+      " with a surf school in Newquay. Tickets sell out very fast (time to beat is 6 minutes) so don't miss out!"
+    ],
+    start: 1538758800,
+    end: 1539104400,
+    timeUp: "ON SALE NOW!",
+    image: freshtripsurf,
+    style: "danger",
+  },
+  {
+    __typename: 'FutureTrip',
+    id: "bucs18",
+    header: "NEXT TRIP",
+    date: "11th - 14th October",
+    price: "£45",
+    where: "Newquay, Cornwall",
+    text: ["Our next weekender will see us finally return to Newquay for the first time since March to take on other unis in the ",
+      "bBUCS Surf Championships",
+      "! Expect to see some awesome surfing (as well as some not so good surfing) and party with other unis over a three-day weekend trip. Also wizard's staff."
+    ],
+    release: null,
+    start: 1538758800,
+    end: 1539280800,
+    timeUp: "Let's GOOOO",
+    image: bucs,
+    style: "success",
+  }
+];
 
 export const trips = [
   {
