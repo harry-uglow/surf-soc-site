@@ -9,6 +9,7 @@ import Header from "./Header";
 import { ApolloProvider } from "react-apollo";
 import { client } from "../../index";
 import TripRoutes from "./trips/TripRoutes";
+import MailList from "./MailList";
 
 const App = () => (
   <ApolloProvider client={client}>
@@ -16,10 +17,10 @@ const App = () => (
       <div>
         <Header/>
         <Route exact path="/" component={Home}/>
-        {/*<Route path="/about" component={About}/>*/}
         <Route exact path="/trips" component={Trips}/>
         <Route path="/committee" component={Committee}/>
         <Route path="/events" component={Events}/>
+        <Route path="/mailinglist" component={MailList}/>
         <TripRoutes />
       </div>
     </BrowserRouter>

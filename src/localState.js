@@ -17,9 +17,7 @@ import hattieBite from "./images/hattiebite.jpg";
 import flunkyball from "./images/flunkyball.jpg";
 import kyle from "./images/kyle.jpg";
 import wholesome from "./images/wholesome.jpg";
-import fresh from "./images/fresh.jpg";
 import off17 from "./images/off17.jpeg";
-import sportsnight from "./images/sportsnight.jpg";
 import bowling from "./images/bowling.jpg";
 import curry from "./images/curry.jpg";
 import pancakes from "./images/pancakes.jpg";
@@ -36,33 +34,14 @@ import dipsy from "./images/dipsy.jpg";
 export const events = [
   {
     __typename: 'Event',
-    id: "freshFair18",
-    title: "Freshers Fair",
-    description: ["Come and meet the new committee and find out what's in store" +
-    " from Surf Soc this year. You can find us in the middle of Queen's Lawn, just " +
-    "look for the gazebo, surfboards and nutters in wetsuits."],
-    date: "2nd October",
-    where: "Queen's Lawn",
-    img: fresh,
-  },
-  {
-    __typename: 'Event',
-    id: "firstCSP18",
-    title: "Sports Night",
-    description: ["It's the first sports night of the year, and that means the first surf party! " +
-    "This one's always mental so join us for pre-drinks from 7:30 before we head to the union to " +
-    "get waaaveeeyyyy!"],
-    date: "3rd October",
-    where: "Metric, 568 & Union bar",
-    img: sportsnight,
-  },
-  {
-    __typename: 'Event',
     id: "off18",
     title: "Ocean Film Festival",
     description: ["Featuring short films such as The Big Wave Project, BLUE and Adventure is Calling, the Ocean Film Festival is always " +
-    "a great chilled out evening in the midst of the hectic start to the year. Buy tickets at ",
-    "https://www.oceanfilmfestival.co.uk"],
+    "a great chilled out evening in the midst of the hectic start to the year. Buy tickets from the festival ",
+    "|website|https://www.oceanfilmfestival.co.uk",
+    " and join the FB event ",
+    "|here|https://www.facebook.com/events/274354143173229/",
+    "."],
     date: "12th October",
     where: "Union Chapel, Islington",
     img: off17,

@@ -4,8 +4,8 @@ import { Col, Image, Row, Well } from "react-bootstrap";
 import '../../../stylesheets/Events.css';
 
 const formatDescr = description => (
-  description.substring(0,4) === 'http'
-    ? <a href={description}>{description}</a>
+  description[0] === '|'
+    ? <a href={description.substring(1).split("|", 2)[1]}>{description.substring(1).split("|", 2)[0]}</a>
     : description
 );
 

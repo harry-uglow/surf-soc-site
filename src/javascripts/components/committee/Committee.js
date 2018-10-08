@@ -6,7 +6,7 @@ import CommitteeCards from "./CommitteeCards";
 
 const Committee = () => (
   <div className="content">
-    <Grid className="committee">
+    <Grid className="transparent">
       <Row className="equal">
         <CommitteeCards />
       </Row>

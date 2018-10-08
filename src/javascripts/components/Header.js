@@ -21,6 +21,7 @@ const Header = () => (
         <LinkContainer to="/trips"><NavItem>Trips</NavItem></LinkContainer>
         <LinkContainer to="/events"><NavItem>Events</NavItem></LinkContainer>
         <LinkContainer to="/committee"><NavItem>Committee</NavItem></LinkContainer>
+        <LinkContainer to="/mailinglist"><NavItem>Mailing List</NavItem></LinkContainer>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

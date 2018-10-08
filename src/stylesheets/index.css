@@ -109,6 +109,10 @@ nav.navbar {
   max-width: 980px;
 }
 
+.content > .container.transparent {
+  background-color: rgba(0,0,0,0);
+}
+
 .section-inner {
     max-width: 740px;
     padding-left: 20px;
@@ -163,6 +167,17 @@ nav.navbar {
   display: flex;
   flex-direction: column;
   padding-right: 10px;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.ms-form {
+  border: none;
+  max-width: 90vw;
+  height: 80vh;
+  margin-top: 24px;
 }
 
 .loading-shaka {
