@@ -10,6 +10,8 @@ import baleal from "../../../images/baleal.jpg";
 import group_cliff from "../../../images/group_cliff.jpg";
 import boards from "../../../images/boards.jpg";
 import joash from "../../../images/joashred.jpg";
+import marti_headstand from "../../../images/martiheadstand.jpg";
+import marti_fall from "../../../images/martifall.jpg";
 import estella from "../../../images/estella.jpg";
 import flo from "../../../images/flo.jpg";
 import filip_surf from "../../../images/filip_surf.jpg";
@@ -32,7 +34,9 @@ const topRightUrls = {
 const topLeftUrls = {
   urls: [
     joash,
-    estella
+    marti_headstand,
+    marti_fall,
+    estella,
   ],
   alts: ["Joash", "Estella"]
 };

@@ -28,7 +28,6 @@ import joashred from "./images/joashred.jpg";
 import supercafe from "./images/supercafe.jpg";
 import cliffGroup from "./images/cliff_group.jpg";
 import dipsy from "./images/dipsy.jpg";
-import bucs from "./images/bucs.jpg";
 import freshtripsurf from "./images/freshtripsurf.jpg";
 
 
@@ -104,9 +103,9 @@ export const futureTrips = [
   {
     __typename: 'FutureTrip',
     id: "fresherstrip18_1",
-    header: "ON SALE SOON",
+    header: "NEXT TRIP",
     date: "2nd - 4th November",
-    release: "9th October @ 6pm",
+    release: null,
     price: "£45",
     where: "Newquay, Cornwall",
     text: ["Our FRESHERS TRIP is set to be the year's biggest Imperial weekender " +
@@ -118,32 +117,34 @@ export const futureTrips = [
       "a complete beginner or just looking to ease back into the sport, we will be " +
       "offering subsidised ",
       "bsurf lessons",
-      " with a surf school in Newquay. Tickets sell out very fast (time to beat is 6 minutes) so don't miss out!"
+      " with a surf school in Newquay. Tickets sold out in 4 minutes (",
+      "bNEW RECORD",
+      "), this is gonna be a mad one!"
     ],
-    start: 1538758800,
-    end: 1539104400,
-    timeUp: "ON SALE NOW!",
-    image: freshtripsurf,
-    style: "danger",
-  },
-  {
-    __typename: 'FutureTrip',
-    id: "bucs18",
-    header: "NEXT TRIP",
-    date: "11th - 14th October",
-    price: "£45",
-    where: "Newquay, Cornwall",
-    text: ["Our next weekender will see us finally return to Newquay for the first time since March to take on other unis in the ",
-      "bBUCS Surf Championships",
-      "! Expect to see some awesome surfing (as well as some not so good surfing) and party with other unis over a three-day weekend trip. Also wizard's staff."
-    ],
-    release: null,
-    start: 1538758800,
-    end: 1539280800,
+    start: 1539104400,
+    end: 1541178000,
     timeUp: "Let's GOOOO",
-    image: bucs,
+    image: freshtripsurf,
     style: "success",
-  }
+  },
+  // {
+  //   __typename: 'FutureTrip',
+  //   id: "bucs18",
+  //   header: "NEXT TRIP",
+  //   date: "11th - 14th October",
+  //   price: "£45",
+  //   where: "Newquay, Cornwall",
+  //   text: ["Our next weekender will see us finally return to Newquay for the first time since March to take on other unis in the ",
+  //     "bBUCS Surf Championships",
+  //     "! Expect to see some awesome surfing (as well as some not so good surfing) and party with other unis over a three-day weekend trip. Also wizard's staff."
+  //   ],
+  //   release: null,
+  //   start: 1538758800,
+  //   end: 1539280800,
+  //   timeUp: "Let's GOOOO",
+  //   image: bucs,
+  //   style: "success",
+  // }
 ];
 
 export const trips = [
